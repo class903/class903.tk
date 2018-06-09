@@ -268,7 +268,8 @@
       document.getElementById("precent").innerHTML = Number(document.getElementById("precent").innerHTML)+20;
     }
     function onload() {
-      document.getElementById("loading").innerHTML = "";
+      document.getElementById("loading").innerHTML = "All Loaded.";
+      setTimeout(function(){document.getElementById("loading").innerHTML = "";}, 3000);
     }
   </script>
 </body>
